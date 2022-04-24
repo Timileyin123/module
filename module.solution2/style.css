@@ -1,0 +1,23 @@
+.section {
+  padding: 70px 0px;
+}
+
+.peak {
+  border-width: 3px;
+  border-color: black;
+}
+
+.header {
+  text-align: right;
+  padding: 10px;
+  border-width: 3px;
+  border-color: black;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .col-sm-3 {
+    flex-direction: column !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  
+}
